@@ -2,7 +2,7 @@ import telebot
 import requests
 
 # Здесь нужно заменить YOUR_API_KEY на ваш ключ API OpenWeatherMap
-API_KEY = YOUR_API_KEY
+API_KEY = "YOUR_API_KEY"
 
 #TELEGRAM_TOKEN нужно заменитть на токен вашего бота
 
