@@ -4,11 +4,11 @@ import re
 from translate import Translator
 
 # Здесь нужно заменить YOUR_API_KEY на ваш ключ API OpenWeatherMap
-API_KEY = "6c9f3821ef0b33dd01dedbd5cd162454"
+API_KEY = "YOUR_API_KEY"
 
 translator = Translator(to_lang="ru")
 translatorENG = Translator(to_lang="en")
-bot = telebot.TeleBot("6090011419:AAET9uNJ2RW5N6Jm9EWE-VURViOuqMixuLA")
+bot = telebot.TeleBot("BOT_API")
 users = {}
 
 @bot.message_handler(commands=['start', 'help'])
